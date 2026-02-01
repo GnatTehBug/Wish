@@ -87,7 +87,8 @@ header {
 
 @media (max-width: 480px) {
   .dr__jj {
-    padding-left: 25px;
+    padding-left: 22px;
+    margin: auto;
   }
 }
 
