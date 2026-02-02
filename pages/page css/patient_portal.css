@@ -1,0 +1,53 @@
+html body {
+  padding: 0;
+  margin: 0;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #c5c5c5;
+}
+
+.top__banner {
+  text-align: center;
+  background: darkblue;
+  color: white;
+  padding: 1px;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(90deg, rgb(152, 193, 221), rgb(1, 31, 68));
+  padding: 10px 0px 20px;
+  color: lightgray;
+}
+
+.top__nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.top__nav a:hover {
+  color: white;
+}
+
+.top__nav {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  color: lightgray;
+}
+
+.call__btn {
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: #ce8525;
+  text-decoration: none;
+}
+
+.call__btn :hover {
+  color: rgb(68, 68, 161);
+}

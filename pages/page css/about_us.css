@@ -78,18 +78,10 @@ header {
 
 .dr__jj {
   background: darkblue;
-  padding: 0;
-  padding-left: 50pc;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  filter: drop-shadow(10px 0px 10px);
-}
+  display: flex;
+  justify-content: center;
 
-@media (max-width: 480px) {
-  .dr__jj {
-    padding-left: 22px;
-    margin: auto;
-  }
+  filter: drop-shadow(10px 0px 10px);
 }
 
 .bio {
