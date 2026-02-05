@@ -51,3 +51,9 @@ header {
 .call__btn :hover {
   color: rgb(68, 68, 161);
 }
+.btn__group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
